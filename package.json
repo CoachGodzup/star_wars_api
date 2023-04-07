@@ -13,6 +13,8 @@
     "docker": "COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker-compose build"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.11",
+    "@apollo/datasource-rest": "^5.0.2",
     "@types/node": "18.15.11",
     "@types/react": "18.0.33",
     "@types/react-dom": "18.0.11",

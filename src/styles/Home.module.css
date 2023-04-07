@@ -7,6 +7,11 @@
   min-height: 100vh;
 }
 
+.main .content {
+  margin: auto;
+  max-width: 1024px;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
@@ -149,6 +154,39 @@
     rgba(var(--tile-end-rgb), 1)
   );
   background-clip: content-box;
+}
+
+
+form.mainSearch {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+form.mainSearch input {
+  height: 2em;
+  font-size: 1.5em;
+  border-radius:0.5em;
+  margin-bottom: 0.5em;
+  border: none;
+}
+
+.mainSearch .heroInput {
+  background-color: #eee;
+  padding-left: 1em;
+  color: #222;
+}
+
+.mainSearch .heroSubmit {
+  background-color: #00d;
+  border-top-right-radius:0.5em;
+  border-bottom-right-radius:0.5em;
+}
+
+.mainSearch .heroSubmit:hover,
+.mainSearch .heroSubmit:focus {
+  background-color: #22e;
 }
 
 /* Enable hover only on non-touch devices */
